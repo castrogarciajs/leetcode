@@ -1,1 +1,1 @@
-console.log("Merge");
+console.log('Merge')
