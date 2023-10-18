@@ -1,0 +1,16 @@
+{
+  "tasks": {
+		"dev": "deno run --watch typescript/main.ts",
+		"start": "deno run typescript/main.ts"
+	},
+  "lint": {
+    "exclude": ["target/**/*", "node_modules/**/*", "dist/**/*"],
+    "rules": {}
+  },
+	"fmt": {
+		"exclude": ["target/**/*", "node_modules/**/*", "dist/**/*"],
+		"singleQuote": true,
+		"semiColons": false,
+		"useTabs": true
+	}
+}
