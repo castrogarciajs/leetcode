@@ -7,6 +7,6 @@ edition = "2021"
 
 [[bin]]
 name = "leetcode"
-path = "rs/main.rs"
+path = "Rust/main.rs"
 
 [dependencies]
