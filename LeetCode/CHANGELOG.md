@@ -1,1 +1,1 @@
-# Example algoritms 
+# Example algoritms
