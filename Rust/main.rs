@@ -1,4 +1,5 @@
 mod merge_sorted;
+mod remove_element;
 
 fn main() {
   merge_sorted::MergeSortedArray::run(
@@ -7,5 +8,6 @@ fn main() {
     &mut [2, 5, 6],
     3,
   );
+  remove_element::RemoveElement::remove_element(&mut [3, 2, 2, 3], 3);
   println!("Hello, world!");
 }
