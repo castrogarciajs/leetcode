@@ -1,4 +1,4 @@
-import { assertEquals } from 'https://deno.land/std@0.204.0/assert/assert_equals.ts'
+import { assertEquals } from './deps.ts'
 import { mergeSortedArray } from './merge_sorted.ts'
 
 Deno.test('mergeSortedArray', () => {
