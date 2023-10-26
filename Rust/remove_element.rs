@@ -27,7 +27,6 @@ impl RemoveElement {
   }
 }
 
-
 #[test]
 fn test_remove_element() {
   let mut nums = vec![3, 2, 2, 3];
