@@ -1,5 +1,6 @@
 mod merge_sorted;
 mod remove_element;
+mod duplicate_array;
 
 fn main() {
   merge_sorted::MergeSortedArray::run(
